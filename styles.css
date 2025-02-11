@@ -1,0 +1,256 @@
+/* navbar code*/
+#mainNavigation a {
+    font-size:14px; text-transform:uppercase; letter-spacing:2px; text-shadow:1px 1px 2px rgba(0,0,0,0.4);}
+  .nav-link :active{ color: #000000;}
+  .dropdown-menu {background:#eaeaeacf}
+  a.dropdown-toggle {color:#ffffff !important}
+  a.dropdown-item:hover {color:#6f6f6f !important}
+  .nav-item a{color:#ffffff;font-size: medium;}
+  .nav-item a:hover {color:#000000}
+  .nav-item{min-width:12vw;}
+  #mainNavigation {position:fixed; top:0; left:0; width:100%; z-index:123; padding: bottom 70px; background-color:hsl(164, 40%, 65%) ; text-shadow:1px 1px 2px rgba(0,0,0,0.4);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  /*background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+ /* background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */}
+  #mainNavigations { position:fixed; top:0; left:0; width:100%; z-index:123; padding: bottom 70px; background-color: #222222a4;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */}
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{background:i#dedede; padding:12px;
+  }
+  #about{box-sizing: white}
+  /* fim da navbar code */
+  /* inicio do banner*/
+
+  @import url('https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0;}
+  html,
+  body {height: 100vh;}
+  
+  body { background: rgb(255, 255, 255); font-family: Roboto, Arial, sans-serif;}
+  
+  .group_scrollingBanner { position: relative; width: 100%; height: 100vh;display: flex; overflow: hidden;}
+  
+  .group_scrollingBanner div { position: relative; width: 50%; overflow: hidden;}
+  
+  .first_column {
+    background: url("https://images.unsplash.com/photo-1534296000128-e754fd87f8dc?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+  }
+  
+  .first_column h2 {
+   
+    /*-webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-fill-color: transparent;*/
+    left: 100%;
+   
+  }
+  
+  
+  
+  .phrase {
+    -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: #dfdfdf;
+    -webkit-text-fill-color: transparent;
+    position:absolute;
+    white-space: nowrap;
+    font-size: 12em;
+    line-height: 100vh;
+    color: #000000;
+    animation: scroll 35s 1s linear infinite;
+    margin-left: 99%;
+   
+  }
+   .frase{color: rgb(62, 62, 62) ; 
+    position: absolute; 
+    white-space: nowrap;
+    font-size: 12em; 
+    line-height: 100vh; 
+    animation: scroll 35s 1s linear infinite; 
+    margin-left: 99%;
+    
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+      
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+ 
+  }
+  
+  /*-----------------------*/
+  #by {
+    font-family: 'Arima Madurai', cursive;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    writing-mode: vertical-rl;
+    color: #4A676A;
+    font-size: 10px;
+  }
+  /* fim do banner*/
+
+  /*imagem ao lado do texto*/
+  .fundo{ background-color: rgba(160, 160, 160, 0.142); border-top-right-radius: 50px; border-bottom-left-radius: 50px; text-align: justify;}
+  .foto{text-align: right;}
+  .largura{width: 1820px;}
+  .row4{margin-top: 30px;}
+  .galeria{margin-top: 100px;}
+  .galeria:nth-child(2) {background:aquamarine;}
+  input {width:100%}
+  textarea{width: 100%; height: 200px;}
+  .largurafooter{width: 100%; margin-top: 150px;}
+  .back{ margin-top: 300px; margin-bottom: 50px;}
+  .p{margin-left: 30px; margin-right: 30px;}
+  .sobre{ margin-top: 30px; margin-left: 30px; margin-bottom: 50px;}
+  .coluna12{color: #d3d1d159;}
+  .marginbottom{margin-bottom: 80px;}
+  .titulo{margin-bottom: 70px; margin-top: 70px;}
+  .color1{background-color:#f5f5f5; border-top-left-radius: 50px; border-bottom-right-radius: 50px; padding-bottom: 40px; margin-top: 120px;}
+  .progress-bar-purple { background-color: hsl(165, 62%, 83%)!important;}
+  .progress-bar-darkblue{background-color:hsl(164, 39%, 62%);}
+  .progress-bar-green{background-color: hsl(165, 42%, 50%);}
+  .progress-bar-black{background-color: hsl(164, 38%, 70%);}
+  .progress{ background-color: #858484; margin-left: 30px; margin-right: 30px;}
+  @media screen and (max-width: 767.98px) { 
+    .invert{ width: 100%; margin-top: 30px;
+    }
+    .fundo{ margin-top: -50px; margin-bottom: 50px;}
+    .p{ margin-left: 20px; margin-right: 20px; padding-bottom: 30px;;}
+    .iconbaixo{ margin-bottom: 30px;}
+    .color1{margin-top: 150px; margin-bottom: -150px;}
+    .footer{margin-top: 150px;}
+    .imground{margin-top: 90px;}
+    .phrase{font-size: 100px;}
+    .frase{font-size: 100px;}
+    .semobile{background-size: cover;}
+
+  }
+
+  @media(max-width: 950px) {
+    .logo img {
+      width: 100%;
+      height: 50px;
+      
+    }
+  }
+  
+  @media(max-width: 600px) {
+    .logo img {
+      width: 100%;
+      height: 50px;
+    }
+  }
+  
+   
+  
+    
+
+/* galeria */
+.port {
+	padding: 5%;
+}
+.gallery-item {
+	position: relative;
+	box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+/* overlay */
+
+.gallery-item img {
+	width: 100%;
+}
+.gallery-item .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.gallery-item:hover .overlay {
+	opacity: 1;
+}
+.gallery-item .overlay h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.gallery-item .overlay p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.gallery-item .overlay .btn {
+	font-size: 16px;
+}
+.modal {
+	background: rgba(0, 0, 0, 0.8);
+}
+.topdesk{ margin-top: 150px;
+}
+.baixo{margin-bottom: 25px;}
+@media (max-width: 991px) {
+	.gallery-item {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 767.98px) { 
+  .topmobil{ margin-top: 30px;}
+  
+}
+.modal-content{width: 100%;}
+
+
+/* Css galeria2*/
+#caixa { float: left; width: 250px; height: 180px; margin: 10px; border: gray 1px solid;
+    padding:  5px;}
+.caixa img {width: 100%; height: 100%;}
+#limpar{clear: both;}
+/* fim da galeria */
+/* footer*/
+/*.contabaixo{margin-bottom: 150px;}
+
+/* Icon Lua*/
+.lua{ width: 20%;}
+
+/* webdesign*/
+.webback{ width: 50%; padding-top: 100px; background-color: #a9a9a9; border-radius: 30px; padding-bottom: 30px; margin-top: 30px;margin-left: 10px;}
+.webback img{ margin-top: -30px;}
+.webb{ margin-top: 100px; }
+
+/*formulário*/
+.text-uppercase{margin-bottom: 30px;}
+/* botões*/
+.btn{background-color: hsl(164, 40%, 65%);}
+/* quadrado gakeria2*/
+.quadrado{ border-top-right-radius: 50px; border-bottom-left-radius: 50px; text-align:left; border: #6f6f6f solid 2px; margin: 50px; box-shadow:10px 10px 5px rgb(120, 120, 120);background-color: #ffffff;}
+.pcaixa{padding: 20px;}
+.box{ background-color: #e3e3e3; border-top-right-radius: 50px; border-bottom-left-radius: 50px; margin-bottom: 5%;}
+.pbox{padding: 10px;}
+.tibox{margin: 20px;}
+@media screen and (max-width: 767.98px) {
+  .box{background-color: #ffffff; width: 100%; margin-left: 15px;}
+  .quadrado{ width: 70%; background-color: #ffff;}
+  .topmobil2{margin-top: 100px;}
+}
+
+.limpar{clear: both;}
