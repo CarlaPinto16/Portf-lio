@@ -1,0 +1,180 @@
+/*carousel*/
+
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; box-sizing: border-box; }
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  top: 0;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+.dottop{margin-top: -60px;}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* Sobre*/
+
+.voyages {
+    float: left;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+  
+  }
+  
+  img.imgvyge {
+  
+   border-radius: 50%;
+   object-fit: cover;
+   width: 300px;
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+   margin: auto 30px;
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+  }
+  
+  .imgvyge:hover {
+  
+   width: 400px;
+   height:400px;
+  
+  }
+  
+  p.text {
+  
+   display: none;
+   z-index:100;
+   position:relative;
+   color:rgba(255, 255, 255, 0);
+   font-size:24px;
+   font-weight:bold;
+   left:130px;
+   bottom:160px;
+   /*-webkit-transition: all 0.7s ease;*/
+   transition: all 0.7s ease;
+  }
+  .texto{
+    margin-top: -5px;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 60px;
+    border-radius: 20px;
+    float: right;
+    width: 50%;
+    
+  }
+  @media (max-width: 768px) {
+    .voyages {
+      width: 100%;
+      height: auto;
+      margin: 30px 0 10px 0;
+      flex-direction: column;
+    }
+  
+    .imgvyge {
+      width: 100%;
+      height: auto;
+      margin: 20px 0 20px 0;
+      border-radius: 0;
+    }
+  
+    .text {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      font-weight: normal;
+      left: 0;
+      bottom: 0;
+    }
+  
+    .texto .textos.p11 {
+      margin-top: 0;
+      padding: 0;
+      border-radius: 0;
+    }
+    
+  }
+    
+  /*Textos*/
+  .textos{float: right; width: 49%; margin-top: 40px;}
+  .col{ padding-bottom: 100px ; padding-top: 100px; background-color: #bbb; margin-bottom: 60px;}
+  
+/* galeria*/
+#galeria{margin-top: 100px;}
+.coluna{float: left; width: 25%; }
+.coluna img{width: 100%;}
+.p10{ padding:10px}
+
+/*textos*/
+.col{float: left; width: 50%; }
+.p11{ background-color: #bbb; clear: both; margin: 20px;}
+.ti2{margin-left: 20px;}
+/* equipa*/
+.pa10{padding: 10px;}
+.pa3o{padding: 30px}
+.equipa_foto{border-radius: 50%;}
+.c1{text-align: center;}
+#equipa img { max-width: 250px; }
+.c3         { float: left; width: 30%; }
+
+#seta_esq, #seta_dir   { float: left; max-width:40px; margin-top: 150px; }
+#seta_dir   { float: right; margin-right: 30px;}
+
+#s_esq, #s_dir { cursor: pointer; }
+/*formulário*/
+.forma{float: left; width: 50%; }
+input, textarea{width: 95%; margin: 5px; padding: 10px; border: none; border-bottom: 1px black solid; } 
+button{border-radius: 30px; background-color: aliceblue; width: 50%;}
+.p12{padding: 10px;}
+
+.limpar{clear: both;}
+
+/*lua*/
+.lua{ width: 20%;} 
+.luap{ margin-top: -50px; margin-left: 140px;}
+/*footer*/
+.rodape{background-color: #bbb; padding: 10px; padding: 10px; margin: 0; text-align: center;}
+
